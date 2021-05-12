@@ -9,8 +9,8 @@ export const Header = () => {
       bg="teal.500"
       color="gray.50"
       pr={2}
-      pt={6}
-      pb={6}
+      pt={8}
+      pb={8}
       textAlign="center"
       display={{ base: "flex", md: "block" }}
       w="100%"

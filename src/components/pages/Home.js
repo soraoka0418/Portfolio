@@ -6,16 +6,17 @@ import { HomeButton } from "../organisms/HomeButton";
 export const Home = memo(() => {
   return (
     <Box
-      h={{ base: "80vh", md: "70vh" }}
+      h={{ base: "90vh", md: "70vh" }}
       as="div"
       pt={16}
       bgGradient="linear(to-r,green.200,teal.200)"
       color="white"
       textAlign="center"
+
     >
       <HomeMessage title="SORACHI OKADA" text="Thanks for watching!" />
 
-      <HomeButton />
+      <HomeButton   />
     </Box>
   );
 });
