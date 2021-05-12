@@ -8,11 +8,13 @@ export const Header = () => {
       as="div"
       bg="teal.500"
       color="gray.50"
-      padding="8"
+      pr={2}
+      pt={6}
+      pb={6}
       textAlign="center"
       display={{ base: "flex", md: "block" }}
       w="100%"
-      h={{ base: "20vh", md: "30vh" }}
+      // h={{ base: "20vh", md: "30vh" }}
     >
       <Heading as="h1" fontSize={{ base: "x-large", md: "xxx-large" }}>
         Welcome to My Portfolio !
