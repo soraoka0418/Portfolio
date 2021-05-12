@@ -9,13 +9,12 @@ import { Skill } from "../components/pages/Skill";
 export const Router = memo(() => {
   return (
     <Switch>
-      <Route exact="true" path="/">
+      <Route exact path="/">
         <Home />
       </Route>
       <Route path="/Contact">
         <Contact />
       </Route>
-      
       <Route path="/Skill">
         <Skill />
       </Route>
