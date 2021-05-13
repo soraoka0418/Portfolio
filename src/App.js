@@ -8,7 +8,7 @@ import { Header } from "./components/organisms/layout/Header";
 export default function App() {
   return (
     <ChakraProvider>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL} >
         <Header/>
         <Router  />
       </BrowserRouter>
